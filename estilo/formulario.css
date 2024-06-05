@@ -1,0 +1,116 @@
+:root{
+    --background-color: #aaaaaa;
+}
+
+.formContainer{
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.row{
+    color: #F0f0f0;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text{
+    border:none;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0.3rem;
+    width: 25rem;
+    border-radius: 0.3rem;
+    background-color: var(--background-color);
+}
+
+.textarea{
+    margin-top: 0.3rem;
+    background-color: var(--background-color);
+    border-radius: 0.4rem;
+}
+
+.btn1{
+    margin-top: 2rem;
+    height: 3.5rem;
+    width: 100%;
+    color: #F0f0f0;
+    background-color: rgb(66, 66, 66);
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 0.5rem;
+    transition: background-color 0.1s ease;
+}
+
+.btn1:hover {
+    background-color: rgb(48, 48, 48);
+    transition: background-color 0.1s ease;
+}
+
+address{
+    translate: 0rem 2rem;
+    line-height: 2.5rem;
+}
+
+.form-quiz{
+    display: flex;
+    flex-direction: column;
+    width: 52rem;
+}
+
+.formText{
+    color: #F0f0f0;
+}
+
+label.formText{
+    margin-bottom: 1rem;
+}
+
+select{
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: var(--background-color);
+    height: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.formTitle{
+    margin-bottom: 1rem;
+}
+
+.btn{
+    margin-top: 0rem;
+    height: 4rem;
+    width: 100%;
+    color: #F0f0f0;
+    background-color: rgb(73, 73, 73);
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 0.5rem; 
+    transition: background-color 0.1s ease;
+}
+
+.btn:hover{
+    background-color: rgb(49, 49, 49);
+    transition: background-color 0.1s ease;
+}
+
+.btnn{
+    background-color: var(--background-color);
+    color: black;
+    transition: background-color 0.1s, color 0.1 ease;
+
+}
+
+.btnn:hover{
+    background-color: #4b4b4b;
+    color: #f0f0f0;
+    transition: background-color 0.1s, color 0.1 ease;
+}
+

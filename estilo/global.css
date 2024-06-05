@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(/imagens/bg-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+h1{
+    color: #c2c2c2;
+}
+
+h2, h3, h4, h5{
+    color: orange;
+}
+
+p, a{
+    color: #eeeeee;
+}
+
+:root{
+    --primary-color: #FF7833;
+    --dark-gray: rgba(49, 51, 59, 0.6);
+    --gray: rgba(68, 72, 86, 0.6);
+    --light-gray: rgb(139, 139, 139);
+}
+
+.hightlight{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100rem;
+    border-left: 1px solid var(--primary-color);
+    padding-left: 3rem;
+    line-height: 3rem;
+    margin: 2rem 0;
+    font-size: 1.8rem;
+}
+
+.navContainer{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: var(--dark-gray);
+    height: 100vh;
+    width: 26rem;
+}
+
+.navImg-container{
+    padding: 6rem 2rem 4rem ;
+    display: flex;
+    justify-content: end;
+}
+
+.navImg-container img{
+    width: 14rem;
+    height: 14rem;
+}
+
+.navList{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 0 2rem;
+}
+
+.item-navList{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    font-size: 2rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid gray;
+
+}
+
+.item-navList a{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    text-decoration: none;
+    padding: 0.8rem 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.2s, padding-right 0.2s, font-weight 0.2s ease;
+
+}
+
+.item-navList:hover a{
+    background-color: #585858;
+    padding-right: 1rem;
+    font-weight: 600;
+    transition: background-color 0.2s, padding-right 0.2s, font-weight 0.2s ease;
+}
+
+main{
+    background-color: var(--gray); 
+    padding: 8rem 4rem;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 26rem;
+    overflow-y: scroll;
+    padding-right: 25rem;
+}

@@ -1,0 +1,42 @@
+.mainContainer{
+    width: 100%;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-right: 24rem;
+}
+
+h2.title{
+    margin-bottom: 0.6rem;
+}
+
+.title, .home-links{
+    margin-right: 5rem;
+}
+
+p.text{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 5rem 1.5rem 0;
+    font-size: 1.8rem;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.home-links{
+    display: flex;
+    gap: 5rem;
+}
+
+.links{
+    margin-top: 1.5rem;
+    font-size: 1.9rem;
+    text-decoration: none;
+}
+
+.icon{
+    margin-right: 0.3rem;
+}

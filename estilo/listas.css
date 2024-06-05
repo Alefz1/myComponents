@@ -1,0 +1,35 @@
+.listContainer{
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.row{
+    color: #f0f0f0;
+    display: flex;
+    gap: 25rem;
+    margin-left: 2rem;   
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    translate: 3rem;
+    margin-top: 1rem;
+}
+
+.alternate{
+    list-style-type: none;
+    translate: 1.5rem;
+}
+
+.row2{
+    margin-top: 2em;
+
+}
+
+.list2-1, .list2-2, .list1-2,.list2-2-2, .listA{
+    translate: 2rem;
+}

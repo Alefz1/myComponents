@@ -1,0 +1,75 @@
+.mainContainer{
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.hightlight{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100rem;
+    border-left: 1px solid var(--primary-color);
+    padding-left: 3rem;
+    line-height: 3rem;
+    margin: 2rem 0;
+    font-size: 1.8rem;
+}
+
+.card{
+    background-color: rgba(54, 54, 54, 0.795);
+}
+
+.one{
+    width: 74rem;
+    margin-bottom: 3rem;
+}
+
+.card_content{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+    font-weight: 100;
+    gap: 1.3rem;
+    padding: 1rem 2rem 5rem 2rem;
+}
+
+.card_title{
+    font-size: 2.5rem;
+}
+
+.two{
+    display: flex;
+    gap: 2rem;
+    width: 50rem;
+    margin-bottom: 3rem;
+}
+
+.title_cardsContainer{
+    margin-bottom: 2rem;
+}
+
+.two img{
+    width: 50rem;
+}
+
+.three{
+    display: flex;
+    gap: 2rem;
+    width: 33rem;
+    margin-bottom: 3rem;
+}
+
+.three img{
+    width: 33rem;
+}
+
+.four{
+    display: flex;
+    gap: 2rem;
+    width: 24.3rem;
+}
+
+.four img{
+    width: 24.3rem;
+}

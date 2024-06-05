@@ -1,0 +1,42 @@
+.tableContainer{
+    font-size: 1.7rem;
+    color: #f0f0f0;
+}
+
+.table{
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th{
+    text-transform: uppercase;
+}
+
+td, th{
+    text-align: left;
+    padding: 1rem 0 1rem 1rem;
+}
+
+td{
+    padding: 1.5rem;
+    border-top: 1px solid #1d1c1c;
+}
+
+.email{
+    text-align: end;
+}
+
+.table-alternate tbody tr:nth-child(odd){
+    background-color: rgb(48, 48, 48);
+}
+
+table.table-alternate tbody td{
+    border: none;
+}
+
+.table-verticalLines td:not(:last-child),
+.table-verticalLines th:not(:last-child){
+    border-right: 1px solid rgb(48, 47, 47);
+}
+
